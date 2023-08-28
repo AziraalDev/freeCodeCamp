@@ -1,0 +1,173 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,700;1,300&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <main id="main">
+        <h1 id="title">Mr. Geralt of Rivia</h1>
+        <p>Mutant that saving the entire world everyday</p>
+        <figure id="img-div">
+            <img id="image"
+                src="https://cdn.wallpapersafari.com/13/47/afvez2.jpg"
+                alt="The Witcher on his hunt">
+            <figcaption id="img-caption">The Witcher on his hunt</figcaption>
+        </figure>
+        <section id="tribute-info">
+            <h3 id="heading_3">Andrzej Sapkowski "The Witcher" Geralt of Rivia key events</h3>
+            <ul>
+                <li><strong>1230s</strong>: Geralt is born.</li>
+                <li><strong>1240s</strong>: Geralt undergoes the Witcher mutations and training at Kaer Morhen.</li>
+                <li><strong>1250s</strong>: Geralt begins his adventures as a Witcher.</li>
+                <li><strong>1262</strong>: Geralt and Yennefer meet during the events of the short story "The Last
+                    Wish."</li>
+                <li><strong>1263</strong>: Geralt meets Ciri for the first time during the events of "A Question of
+                    Price."</li>
+                <li><strong>1267</strong>: The events of the "Blood of Elves" novel take place, focusing on Ciri's
+                    training with Geralt and other Witchers.</li>
+                <li><strong>1268</strong>: Geralt searches for Ciri, who has gone missing, during the events of "Time of
+                    Contempt."</li>
+                <li><strong>1268-1269</strong>: Geralt and Yennefer are presumed dead during the Thanedd coup events in
+                    "Baptism of Fire."</li>
+                <li><strong>1272</strong>: Geralt's search for Ciri continues in "The Tower of the Swallow."</li>
+                <li><strong>1273</strong>: Geralt and Ciri reunite in "The Lady of the Lake," and the series comes to a
+                    close.</li>
+            </ul>
+            <blockquote cite="">
+                <p>
+                    “People," Geralt turned his head, "like to invent monsters and monstrosities. Then they seem less
+                    monstrous themselves. When they get blind-drunk, cheat, steal, beat their wives, starve an old
+                    woman, when they kill a trapped fox with an axe or riddle the last existing unicorn with arrows,
+                    they like to think that the Bane entering cottages at daybreak is more monstrous than they are. They
+                    feel better then. They find it easier to live.”
+                </p>
+                <cite>-- Andrzej Sapkowski, The Last Wish</cite>
+            </blockquote>
+        </section>
+        <section id="tribute-link-section">
+            <h3>If you have time, you should read more about this incredible hero being on his <a
+                    id="tribute-link" href="https://en.wikipedia.org/wiki/Geralt_of_Rivia" alt="Geralt of Rivia wikipedia"
+                    target="_blank">Wikipedia
+                    entry</a></h3>
+        </section>
+    </main>
+</body>
+
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-align: center;
+    color: cyan;
+    margin: 0;
+}
+
+h1 {
+    font-size: 4rem;
+    margin-bottom: 0;
+}
+
+
+h2 {
+    font-size: 3.25rem;
+}
+
+a {
+    color: #477ca7;
+}
+
+a:visited {
+    color: #74638f;
+}
+
+#main {
+    margin: 30px 8px;
+    padding: 15px;
+    border-radius: 5px;
+    background: rgb(48, 11, 25);
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
+
+#img-div {
+    background: rgb(48, 11, 25);
+    padding: 10px;
+    margin: 0;
+}
+
+#img-caption {
+    margin: 15px 0 5px 0;
+}
+
+#heading_3 {
+    margin: 50px 0;
+    text-align: center;
+}
+
+ul {
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+}
+
+li {
+    margin: 16px 0;
+}
+
+blockquote {
+    font-style: italic;
+    max-width: 545px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+}
+
+@media (max-width: 460px) {
+    h1 {
+        font-size: 3.5rem;
+        line-height: 1.2;
+    }
+
+    #main {
+        margin: 0;
+    }
+
+    #img-caption {
+        font-size: 1.4rem;
+    }
+}
+
+** end of undefined **
+
