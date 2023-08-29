@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Roadmap</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav id="navbar">
+        <header>Frontend Roadmap</header>
+        <ul>
+            <li><a class="nav-link" href="#Internet">Internet</a></li>
+            <li><a class="nav-link" href="#HTML">HTML</a></li>
+            <li><a class="nav-link" href="#CSS">CSS</a></li>
+            <li><a class="nav-link" href="#JavaScript">JavaScript</a></li>
+            <li><a class="nav-link" href="#Version_control_systems">Version_control_systems</a></li>
+            <li><a class="nav-link" href="#VCS_Hosting">VCS_Hosting</a></li>
+            <li><a class="nav-link" href="#Package_Managers">Package_Managers</a></li>
+            <li><a class="nav-link" href="#Pick_A_Framework">Pick_A_Framework</a></li>
+            <li><a class="nav-link" href="#Writing_CSS">Writing_CSS</a></li>
+            <li><a class="nav-link" href="#CSS_Architecture">CSS_Architecture</a></li>
+            <li><a class="nav-link" href="#CSS_Preprocessors">CSS_Preprocessors</a></li>
+            <li><a class="nav-link" href="#Build_Tools">Build_Tools</a></li>
+            <li><a class="nav-link" href="#Testing_Of_Apps">Testing_Of_Apps</a></li>
+            <li><a class="nav-link" href="#Authentication_Strategies">Authentication_Strategies</a></li>
+            <li><a class="nav-link" href="#Web_security_basics">Web_security_basics</a></li>
+            <li><a class="nav-link" href="#TypeScript">TypeScript</a></li>
+            <li><a class="nav-link" href="#SSR">SSR</a></li>
+            <li><a class="nav-link" href="#GraphQL">GraphQL</a></li>
+            <li><a class="nav-link" href="#SSG">SSG</a></li>
+            <li><a class="nav-link" href="#Next_Steps">Next_Steps</a></li>
+        </ul>
+    </nav>
+    <main id="main-doc">
+        <section class="main-section" id="Internet">
+            <header>Internet</header>
+            <article>
+                <header class="artical_subheader">How does the internet work:</header>
+                <p>The internet functions as a vast network of interconnected devices using the Internet Protocol (IP)
+                    to exchange data. Data is broken into packets, which travel through various routers and switches
+                    across the world's infrastructure of cables and wireless connections. These packets find their way
+                    to the destination using IP addresses, and the Transmission Control Protocol (TCP) ensures reliable
+                    data delivery by establishing connections and managing data flow.</p>
+                <header class="artical_subheader">What is HTTP:</header>
+                <p>HTTP stands for Hypertext Transfer Protocol. It is the foundation of data communication on the web.
+                    It's a protocol used by web browsers and servers to exchange information, such as web pages, images,
+                    videos, and other resources. When you enter a URL in your browser, it sends an HTTP request to the
+                    server, which responds with the requested content, allowing you to view web pages and interact with
+                    online services.</p>
+                <header class="artical_subheader">What is Domain / Domain Name:</header>
+                <p>A domain name is a human-readable address used to identify websites on the internet. It provides a
+                    more user-friendly way to access websites compared to numeric IP addresses. For example,
+                    "example.com" is a domain name. Domains are organized hierarchically, with the top-level domain
+                    (TLD) representing the type of entity or the country, followed by second-level and third-level
+                    domains.</p>
+                <header class="artical_subheader">What is Hosting:</header>
+                <p>Hosting refers to the practice of storing website files, databases, and other resources on servers
+                    that are connected to the internet. Web hosting companies provide the technology and infrastructure
+                    needed to make websites accessible online. When users access a website, their browsers request data
+                    from the hosting server, which then delivers the content to be displayed.</p>
+                <header class="artical_subheader">DNS and how it works:</header>
+                <p>DNS, or Domain Name System, is a system that translates human-readable domain names into IP addresses
+                    that computers use to identify each other on the internet. When you enter a URL in your browser,
+                    your computer queries a DNS server to find the corresponding IP address. This process involves
+                    multiple DNS servers, with each step narrowing down the search until the correct IP address is
+                    found, allowing your browser to connect to the intended website.</p>
+                <header class="artical_subheader">Browsers and how they work:</header>
+                <p>Web browsers are software applications that allow users to access and interact with information on
+                    the internet. They send HTTP requests to web servers, receive responses, and then render the content
+                    as visual web pages. Browsers interpret HTML, CSS, and JavaScript code to display text, images, and
+                    multimedia content. They also manage cookies, cache data to improve loading times, and provide tools
+                    for users to navigate, bookmark, and interact with websites.</p>
+            </article>
+        </section>
+        <section class="main-section" id="HTML">
+            <header>HTML</header>
+            <article>
+                <header class="artical_subheader">HTML Basics:</header>
+                <p>HTML (Hypertext Markup Language) is the standard language used to create web pages. It consists of a
+                    series of elements that structure content, such as headings, paragraphs, images, and links. HTML
+                    uses tags to define the structure and layout of a webpage, allowing browsers to render the content
+                    as intended by the web developer.</p>
+                <header class="artical_subheader">Semantic HTML:</header>
+                <p>Semantic HTML involves using HTML elements to convey the meaning and structure of the content rather
+                    than just its appearance. It improves the accessibility and search engine optimization (SEO) of web
+                    pages. Semantic elements like <strong>header, nav, main, article,</strong> and
+                    <strong>footer</strong> provide
+                    context to both browsers and developers, making the code more readable and aiding in styling and
+                    functionality.
+                </p>
+                <header class="artical_subheader">Forms and Validations:</header>
+                <p>HTML forms allow users to input data, such as text, checkboxes, and radio buttons, on a webpage.
+                    <strong>form</strong> elements gather this data, and different input types help capture specific
+                    information. Form validation ensures that user-submitted data is accurate and properly formatted.
+                    HTML5 introduced new
+                    input types and attributes, such as email validation and pattern matching, to enhance the user
+                    experience and data integrity.
+                </p>
+                <header class="artical_subheader">Accessibility (a11y):</header>
+                <p>Web accessibility refers to designing and developing websites that are usable by people of all
+                    abilities, including those with disabilities. Accessible websites use semantic HTML, provide text
+                    alternatives for images, offer keyboard navigation, and include descriptive headings. This ensures
+                    that everyone, including those using screen readers or assistive technologies, can access and
+                    interact with the content.</p>
+                <header class="artical_subheader">SEO Basics:</header>
+                <p>SEO, or Search Engine Optimization, involves optimizing a website to improve its visibility in search
+                    engine results. It includes techniques like using relevant keywords in content, creating descriptive
+                    meta tags, optimizing images, improving page load speed, and building high-quality backlinks. Proper
+                    HTML structure, semantic markup, and accessible content contribute to better search engine rankings
+                    and overall website visibility.</p>
+            </article>
+        </section>
+        <section class="main-section" id="CSS">
+            <header>CSS</header>
+            <article>
+                <header class="artical_subheader">Basics of CSS</header>
+                <p>
+                    CSS (Cascading Style Sheets) is a styling language used to control the visual presentation of HTML
+                    elements on a webpage. It involves defining properties like colors, fonts, spacing, and layout. CSS
+                    rules consist of selectors (targeting HTML elements) and declarations (styling instructions)
+                    enclosed in curly braces. By linking CSS files to HTML documents, you can separate content and
+                    presentation, making websites more organized and maintainable.
+                </p>
+                <header class="artical_subheader">CSS Positioning</header>
+                <p>
+                    CSS positioning techniques determine how elements are placed on a webpage. Positioning properties
+                    like <code>position</code>, <code>top</code>, <code>right</code>, <code>bottom</code>, and
+                    <code>left</code> control the placement of elements relative to their containing elements or the
+                    viewport. Common values for <code>position</code> are <code>static</code>, <code>relative</code>,
+                    <code>absolute</code>, and <code>fixed</code>, each influencing the element's position within the
+                    document flow.
+                </p>
+                <header class="artical_subheader">CSS Flex</header>
+                <p>
+                    Flexbox (Flexible Box Layout) is a CSS layout model that simplifies the arrangement of elements in a
+                    flexible manner. By applying <code>display: flex</code> to a parent container, you can control the
+                    distribution, alignment, and order of child elements using properties like
+                    <code>flex-direction</code>, <code>justify-content</code>, <code>align-items</code>, and
+                    <code>flex-grow</code>.
+                </p>
+                <header class="artical_subheader">CSS Grid</header>
+                <p>
+                    CSS Grid is a two-dimensional layout system that enables precise control over rows and columns in a
+                    grid format. With the <code>display: grid</code> property applied to a container, you can define
+                    both rows and columns using properties like <code>grid-template-rows</code>,
+                    <code>grid-template-columns</code>, and place child elements using <code>grid-row</code> and
+                    <code>grid-column</code>.
+                </p>
+                <header class="artical_subheader">Responsive Design</header>
+                <p>
+                    Responsive design involves creating websites that adapt and look appealing on various devices and
+                    screen sizes. It employs CSS techniques like media queries, flexible units (like percentages), and
+                    fluid grids to ensure content reflows and adjusts seamlessly across different viewport sizes.
+                </p>
+                <header class="artical_subheader">Media Queries</header>
+                <p>
+                    Media queries are CSS rules that apply different styles based on specific conditions, such as screen
+                    width, height, orientation, and device characteristics. By using media queries, you can create
+                    responsive designs that cater to different devices, ensuring a consistent and user-friendly
+                    experience.
+                </p>
+                <header class="artical_subheader">Pseudo Selectors</header>
+                <p>
+                    Pseudo-selectors are used in CSS to define styles for specific states or parts of an element that
+                    cannot be targeted with a regular class or ID selector. Examples include <code>:hover</code>,
+                    <code>:focus</code>, <code>:active</code>, and <code>:nth-child(n)</code>. Pseudo-selectors enhance
+                    user interactions and enable advanced styling effects.
+                </p>
+                <header class="artical_subheader">Intermediate CSS</header>
+                <p>
+                    Intermediate CSS covers more advanced concepts, like advanced selectors (attribute, sibling, and
+                    descendant selectors), CSS variables (custom properties), transitions, and transforms. These
+                    concepts allow you to create sophisticated designs and interactive elements.
+                </p>
+                <header class="artical_subheader">Animations in CSS</header>
+                <p>
+                    CSS animations involve animating the properties of HTML elements to create movement and visual
+                    effects. Using keyframes and the <code>@keyframes</code> rule, you can define how an element changes
+                    over a specified duration. CSS animations offer a way to enhance user experience and engage visitors
+                    with visually appealing content.
+                </p>
+            </article>
+        </section>
+        <section class="main-section" id="JavaScript">
+            <header>JavaScript</header>
+            <article>
+                <header class="artical_subheader">You Don't Know JS - Book series</header>
+                <p>
+                    "You Don't Know JS" is a comprehensive book series that delves into the intricacies of JavaScript,
+                    exploring its core concepts, behavior, and nuances. Written by Kyle Simpson, the series covers
+                    topics ranging from scope and closures to asynchronous programming, providing in-depth insights for
+                    JavaScript developers.
+                </p>
+                <header class="artical_subheader">Basics of JavaScript</header>
+                <p>
+                    JavaScript is a versatile scripting language used primarily for web development. It enables dynamic
+                    interactions on web pages, enhancing user experience. JavaScript can be embedded directly into HTML
+                    documents and is commonly used to add interactivity, manipulate content, and respond to user
+                    actions.
+                </p>
+                <header class="artical_subheader">DOM Manipulations</header>
+                <p>
+                    DOM (Document Object Model) manipulations involve interacting with the structure and content of an
+                    HTML document using JavaScript. Developers can access, modify, and update elements, attributes, and
+                    text content within the DOM, allowing dynamic changes to the displayed content and user
+                    interactions.
+                </p>
+                <header class="artical_subheader">Fetch API</header>
+                <p>
+                    The Fetch API is a modern JavaScript interface used to make network requests, typically to retrieve
+                    resources from a server. It provides a more intuitive and flexible alternative to traditional
+                    techniques like XMLHttpRequest. The Fetch API supports asynchronous operations and enables handling
+                    responses using promises.
+                </p>
+                <header class="artical_subheader">Advancing JavaScript</header>
+                <p>
+                    Advancing in JavaScript involves exploring advanced topics like closures, prototypes, design
+                    patterns, and modular development. As you deepen your understanding of these concepts, you can write
+                    more efficient and maintainable code, making use of JavaScript's powerful features to solve complex
+                    problems.
+                </p>
+                <header class="artical_subheader">LeetCode, CodeWars, etc.</header>
+                <p>
+                    Platforms like LeetCode and CodeWars provide coding challenges and exercises to improve programming
+                    skills. These platforms offer a wide range of problems that cover algorithms, data structures, and
+                    problem-solving techniques. Engaging with these challenges helps developers enhance their coding
+                    abilities and learn new approaches.
+                </p>
+            </article>
+        </section>
+        <section class="main-section" id="Version_control_systems">
+            <header>Version_control_systems</header>
+            <p>
+                A Version Control System (VCS) is a software tool that helps manage changes to source code and other
+                files in a collaborative development environment. It tracks revisions, allows multiple developers to
+                work on the same codebase simultaneously, and provides mechanisms to merge and manage code changes
+                efficiently.
+            </p>
+            <p>
+                <strong>Git</strong> is a widely used distributed version control system that provides a decentralized
+                and efficient
+                approach to managing code repositories. Developed by Linus Torvalds, Git tracks changes through
+                snapshots, allowing developers to work offline, create branches for different features, and merge
+                changes seamlessly. It is an integral tool for collaboration and code management in software development
+                projects.
+            </p>
+        </section>
+        <section class="main-section" id="VCS_Hosting">
+            <header>VCS_Hosting</header>
+            <article>
+                <p>
+                    VCS hosting platforms like GitHub and GitLab offer online repositories for version control,
+                    collaboration, and code management. These platforms provide a centralized location for developers to
+                    store and share their code, track changes, manage issues, and collaborate with other team members.
+                </p>
+
+                <p>
+                    <strong>GitHub:</strong> GitHub is a widely used platform that hosts Git repositories. It offers
+                    features like pull requests, issue tracking, code reviews, and project management tools. GitHub
+                    fosters open-source collaboration and is a hub for sharing and discovering code from developers
+                    around the world.
+                </p>
+
+                <p>
+                    <strong>GitLab:</strong> GitLab is another popular platform that offers not only Git repository
+                    hosting but also an integrated DevOps lifecycle toolset. It provides features for continuous
+                    integration, continuous delivery, and container orchestration, making it a comprehensive solution
+                    for managing the entire software development process.
+                </p>
+            </article>
+        </section>
+        <section class="main-section" id="Package_Managers">
+            <header>Package_Managers</header>
+            <article>
+                <p>
+                    Package managers are essential tools for managing and distributing software packages and
+                    dependencies in a project. They simplify the process of installing, updating, and maintaining
+                    libraries and external code that your project relies on.
+                </p>
+
+                <p>
+                    <strong>npm (Node Package Manager):</strong> npm is a default package manager for Node.js and
+                    JavaScript projects. It provides a vast repository of open-source packages that developers can
+                    easily integrate into their applications. npm simplifies dependency management, making it a
+                    fundamental tool for building Node.js applications.
+                </p>
+
+                <p>
+                    <strong>pnpm:</strong> pnpm is a fast and disk-space-efficient package manager for Node.js projects.
+                    Unlike npm and yarn, pnpm uses a single global storage for packages and creates hard links, reducing
+                    duplication and saving storage space on your machine.
+                </p>
+
+                <p>
+                    <strong>yarn:</strong> Yarn is another popular package manager for JavaScript projects. It was
+                    developed by Facebook and offers faster and more reliable package installation compared to npm. Yarn
+                    introduced features like parallel installation and a lockfile format that ensures consistent
+                    dependency resolution.
+                </p>
+            </article>
+        </section>
+        <section class="main-section" id="Pick_A_Framework">
+            <header>Pick_A_Framework</header>
+            <article>
+                <p>
+                    Choosing a front-end framework is a crucial decision for web developers. Frameworks provide a
+                    structured way to build interactive and dynamic user interfaces, but each has its own strengths and
+                    considerations.
+                </p>
+
+                <p>
+                    <strong>React:</strong> React, developed by Facebook, is a popular and widely adopted library for
+                    building user interfaces. It emphasizes component-based architecture, allowing developers to create
+                    reusable UI elements. React's virtual DOM efficiently updates the user interface, making it suitable
+                    for building complex and dynamic applications.
+                </p>
+
+                <p>
+                    <strong>Angular:</strong> Angular, maintained by Google, is a full-fledged framework that provides a
+                    comprehensive set of tools for building large-scale applications. It follows the MVC
+                    (Model-View-Controller) architecture and offers features like dependency injection, two-way data
+                    binding, and a powerful CLI (Command Line Interface).
+                </p>
+
+                <p>
+                    <strong>Vue:</strong> Vue is a progressive framework that combines the simplicity of libraries like
+                    React with the capabilities of larger frameworks like Angular. Developed by a former Google
+                    engineer, Vue's core library focuses on the view layer, making it easy to integrate with other
+                    projects. Vue's gradual adoption approach appeals to both beginners and experienced developers.
+                </p>
+
+                <p>
+                    <strong>Svelte:</strong> Svelte is a unique framework that takes a different approach. Unlike other
+                    frameworks that run in the browser, Svelte compiles components into highly efficient JavaScript code
+                    during the build process. This results in faster loading times and a smaller runtime footprint.
+                    Svelte simplifies complex concepts and offers a smooth developer experience.
+                </p>
+            </article>
+        </section>
+        <section class="main-section" id="Writing_CSS">
+            <header>Writing_CSS</header>
+            <article>
+                <p>
+                    Tailwind CSS is a utility-first CSS framework that streamlines the process of building user
+                    interfaces. Unlike traditional CSS frameworks that provide pre-designed components, Tailwind focuses
+                    on providing a set of utility classes that enable rapid development and customization.
+                </p>
+
+                <p>
+                    With Tailwind, developers can apply styles directly to HTML elements using classes like
+                    <code>bg-blue-500</code> for background color or <code>py-4</code> for vertical padding. This
+                    approach speeds up development by avoiding the need to write custom CSS for common styling tasks.
+                </p>
+
+                <p>
+                    Tailwind's utility classes cover a wide range of design aspects, including layout, typography,
+                    spacing, and responsiveness. It encourages a modular approach to design, allowing developers to
+                    compose interfaces quickly by combining utilities.
+                </p>
+
+                <p>
+                    Additionally, Tailwind can be customized to match the project's design system. Developers can modify
+                    the default configuration, add new utility classes, and create responsive variants to tailor
+                    Tailwind to their specific needs.
+                </p>
+
+                <p>
+                    Despite initial concerns about HTML bloat, Tailwind's purging process eliminates unused styles in
+                    production builds, resulting in optimized and performant code. It offers a balance between rapid
+                    development and efficient production.
+                </p>
+            </article>
+        </section>
+        <section class="main-section" id="CSS_Architecture">
+            <header>CSS_Architecture</header>
+            <article>
+                <p>
+                    BEM (Block Element Modifier) is a popular CSS architecture that promotes a structured and
+                    maintainable approach to styling web applications. It aims to improve collaboration, reduce CSS
+                    conflicts, and enhance code readability.
+                </p>
+
+                <p>
+                    In BEM, styles are organized into <strong>blocks</strong>, which are independent, reusable
+                    components. Blocks contain <strong>elements</strong> that are semantically tied to the block and
+                    <strong>modifiers</strong> that define variations of the block or element. These three parts form
+                    the core of the BEM naming convention.
+                </p>
+
+                <p>
+                    For example, a navigation menu could be structured as follows:
+                    <code>.nav</code> (block),
+                    <code>.nav__item</code> (element),
+                    <code>.nav__item--active</code> (modifier).
+                </p>
+
+                <p>
+                    BEM classes help create clear and self-contained styles. This modular approach minimizes unintended
+                    side effects and simplifies the process of maintaining and scaling CSS as the project grows.
+                </p>
+
+                <p>
+                    BEM's strict naming convention also fosters predictability, making it easier for team members to
+                    understand and collaborate on the styling codebase. While BEM is effective, it can lead to longer
+                    class names, so it's essential to strike a balance between clarity and brevity.
+                </p>
+            </article>
+        </section>
+        <section class="main-section" id="CSS_Preprocessors">
+            <header>CSS_Preprocessors</header>
+            <article>
+                <p>
+                    CSS preprocessors and CSS-in-JS solutions are tools that enhance the development of styles in web
+                    applications, offering advanced features and improved workflows.
+                </p>
+
+                <p>
+                    <strong>SCSS and SASS:</strong> SCSS (Sassy CSS) and SASS (Syntactically Awesome Stylesheets) are
+                    CSS preprocessors that extend CSS with additional features like variables, nesting, and mixins. They
+                    make stylesheets more maintainable and efficient by enabling the use of variables for consistent
+                    theming, nesting for improved organization, and mixins for reusable style patterns.
+                </p>
+
+                <p>
+                    <strong>LESS:</strong> LESS is another CSS preprocessor that provides similar features to SCSS and
+                    SASS. It simplifies complex tasks like mathematical calculations, color manipulation, and unit
+                    conversions. LESS compiles to standard CSS, allowing developers to use its features without
+                    impacting browser compatibility.
+                </p>
+
+                <p>
+                    <strong>CSS-in-JS:</strong> CSS-in-JS is an approach where styles are defined directly in JavaScript
+                    code. Libraries like <strong>Styled Components</strong>, <strong>Emotion</strong>, and
+                    <strong>JSS</strong> enable developers to write styles as components, keeping the styles
+                    encapsulated and scoped to specific components. This approach enhances reusability and mitigates
+                    class naming conflicts.
+                </p>
+
+                <p>
+                    While CSS preprocessors and CSS-in-JS have distinct advantages, the choice between them depends on
+                    factors like project requirements, team familiarity, and personal preference. Each solution offers
+                    unique benefits for managing and maintaining styles in web development.
+                </p>
+            </article>
+        </section>
+        <section class="main-section" id="Build_Tools">
+            <header>Build_Tools</header>
+            <article>
+                <header class="artical_subheader">Vite</header>
+                <p>Vite is a frontend tool that is used for building fast and optimized web applications. It uses a
+                    modern build system and a fast development server to provide a streamlined and efficient development
+                    experience.</p>
+                <p>Vite uses native ES modules and rollup to compile and optimize your code for production, resulting in
+                    faster build times and smaller bundle sizes. It also provides a fast and lightweight development
+                    server that enables you to see changes in real-time as you write code.</p>
+                <header class="artical_subheader">Webpack - a static module bundler</header>
+                <p>Webpack is a static module bundler for JavaScript applications that takes all of your code and turns
+                    it into something that can be used in a web browser. Modules are reusable bits of code made up of
+                    JavaScript, node modules, images, and CSS styles that are bundled and ready to use in your website.
+                </p>
+                <header class="artical_subheader">npm scripts</header>
+                <p>npm scripts are a powerful tool for automating tasks and simplifying the development workflow in
+                    modern web development. With just a few lines of code, you can define scripts to run tests, build
+                    your project, start your development server, and much more</p>
+            </article>
+        </section>
+        <section class="main-section" id="Testing_Of_Apps">
+            <header>Testing_Of_Apps</header>
+            <article>
+                <header class="artical_subheader">Webpack - a static module bundler</header>
+                <p>Unit testing means testing individual modules of an application in isolation (without any interaction
+                    with dependencies) to confirm that the code is doing things right.</p>
+                <header class="artical_subheader">Webpack - a static module bundler</header>
+                <p>Integration testing means checking if different modules are working fine when combined together as a
+                    group.</p>
+                <header class="artical_subheader">Webpack - a static module bundler</header>
+                <p>Functional testing means testing a slice of functionality in the system (may interact with
+                    dependencies) to confirm that the code is doing the right things.</p>
+                <p>Unit testing considers checking a single component of the system whereas functionality testing
+                    considers checking the working of an application against the intended functionality described in the
+                    system requirement specification. On the other hand, integration testing considers checking
+                    integrated modules in the system.</p>
+            </article>
+        </section>
+        <section class="main-section" id="Authentication_Strategies">
+            <header>Authentication_Strategies</header>
+            <article>
+                <p>Authentication is the process of determining if the person or entity accessing a computing system
+                    really is who they claim to be. Authentication systems make a binary decision. They allow or deny
+                    access based on credentials or other proof provided by those requesting access. Authentication
+                    typically works together with authorization systems, which determine what type or level of access a
+                    user should have. </p>
+            </article>
+        </section>
+        <section class="main-section" id="Web_security_basics">
+            <header>Web_security_basics</header>
+            <article>
+                <p>Web security is the practice of securing web applications, the underlying infrastructure, and their
+                    users from malicious attacks. This encompasses several tools, best practices, and processes used to
+                    reduce the attack surface, preventing every malicious user from accessing sensitive data. Given that
+                    over 70% of modern web applications are susceptible to cyberattacks, it is crucial to adopt the
+                    right security strategy to ensure all related components of web applications are secure.</p>
+            </article>
+        </section>
+        <section class="main-section" id="TypeScript">
+            <header>TypeScript</header>
+            <article>
+                <p>TypeScript is a free and open-source high-level programming language developed by Microsoft that adds
+                    static typing with optional type annotations to JavaScript. It is designed for the development of
+                    large applications and transpiles to JavaScript. Because TypeScript is a superset of JavaScript,
+                    all JavaScript programs are syntactically valid TypeScript, but they can fail to type-check for
+                    safety reasons.</p>
+                <p>TypeScript may be used to develop JavaScript applications for both client-side and server-side
+                    execution (as with Node.js or Deno). Multiple options are available for transpilation. The default
+                    TypeScript Compiler can be used,[6] or the Babel compiler can be invoked to convert TypeScript to
+                    JavaScript.</p>
+                <p>For TypeScript as one of fundamentals things for Frontend is another <a
+                        href="https://roadmap.sh/typescript">roadmap</a></p>
+            </article>
+        </section>
+        <section class="main-section" id="SSR">
+            <header>SSR</header>
+            <article>
+                <p>Server-side rendering (SSR) is a technique that renders a web page on the server rather than in the
+                    browser. When a website's JavaScript is rendered on the website's server, a fully rendered page is
+                    sent to the client and the client's JavaScript bundle engages and enables the Single Page
+                    Application framework to operate.</p>
+                <p>Some advantages of server-side rendering include:</p>
+                <ul>
+                    <li><strong>Faster load time</strong>. A server-side rendered application speeds up page loading
+                        when the user
+                        suffers from a slow internet connection. Thus it greatly improves the whole user experience.
+                    </li>
+                    <li><strong>Easy indexation by search engines</strong>. As the content can be rendered before the
+                        page is loaded when
+                        rendering server-side, search engines can easily index and crawl it.</li>
+                    <li><strong>There are fewer issues with social media indexing</strong>. Social media crawlers, like
+                        search engine
+                        bots, have difficulty indexing JavaScript content. Client-side rendering is not supported by
+                        Facebook's Open Graph Protocol or Twitter Cards, for example. If social media sharing is an
+                        important part of your marketing strategy, server-side rendering may be a better option.</li>
+                    <li><strong>Better in terms of accessibility</strong>. SSR apps are better suited for people who use
+                        older devices
+                        with less powerful CPUs because the server sends pre-rendered content to the browser. Because
+                        assistive technologies such as screen readers cannot always parse client-side JavaScript,
+                        server-side rendering is frequently recommended for SPA accessibility. So, server-side rendering
+                        helps efficiently load web pages for users with slow Internet connections or outdated devices.
+                    </li>
+                </ul>
+            </article>
+        </section>
+        <section class="main-section" id="GraphQL">
+            <header>GraphQL</header>
+            <article>
+                <p><strong>GraphQL</strong> is an open-source data query and manipulation language for APIs and a query
+                    runtime engine.</p>
+                <p>GraphQL enables declarative data fetching where a client can specify exactly what data it needs from
+                    an API. Instead of multiple endpoints that return separate data, a GraphQL server exposes a single
+                    endpoint and responds with precisely the data a client asked for.[2] Because a GraphQL server can
+                    fetch from separate data sources and present the data in a unified graph, it isn't tied to any
+                    specific database or storage engine.</p>
+                <p>GraphQL does not provide a full-fledged graph query language such as SPARQL, or even in dialects of
+                    SQL that support transitive closure. For example, a GraphQL interface that reports the parents of an
+                    individual cannot return, in a single query, the set of all their ancestors.</p>
+            </article>
+        </section>
+        <section class="main-section" id="SSG">
+            <header>SSG</header>
+            <article>
+                <p>A static site generator is a tool that generates a full static HTML website based on raw data and a
+                    set of templates. Essentially, a static site generator automates the task of coding individual HTML
+                    pages and gets those pages ready to serve to users ahead of time.</p>
+                <p>To use a static site generator, you typically write your website's' content in a markup language like
+                    Markdown, and use a templating language to define the website's layout and structure. You then run
+                    the static site generator to generate the final set of HTML, CSS, and JavaScript files, which can be
+                    deployed to a web server or content delivery network (CDN) for visitors to access.</p>
+            </article>
+        </section>
+        <section class="main-section" id="Next_Steps">
+            <header>Next_Steps</header>
+            <article>
+                <ul>
+                    <li>
+                        All the documentation in this page is taken from
+                        <a href="https://roadmap.sh/frontend" target="_blank">Frontend Roadmap</a>
+                    </li>
+                </ul>
+            </article>
+        </section>
+    </main>
+</body>
+
+</html>
