@@ -14,4 +14,4 @@ solutions of Free Code Camp courses
  - Frontend Roadmap as a self-project.
 
  - City skyline with studying of variables and deep-dive to gradient properties.
- 
+ - Magazine with studying of CSS Grid. Few interesting things noted (loading="lazy" - to load image only after scrolling to it's place; rel="noreferrer" to avoid HTTP request contain unneccasary info)
